@@ -4,7 +4,7 @@ num_iter = 50;
 max_mu = 1e6;
 rho = 1.5;
 err_thr = 10^-4;
-num_views = 2;
+num_views = 3;
 
 C1 = repmat({zeros(n,n)}, 1, num_views);
 C2 = repmat({zeros(n,n)}, 1, num_views);
