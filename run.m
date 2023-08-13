@@ -18,7 +18,7 @@ mu=60;
 lambda1=0.5;
 
 % Coefficient matrix
-[C] = centroid_MGSSC(n,K,mu,lambda1); 
+[C] = MAVSC(n,K,mu,lambda1); 
 
 % Obtain joint affinity matrix
 A = BuildAdjacency(thrC(C,1));        
