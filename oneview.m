@@ -1,4 +1,4 @@
-function [C1, C2, Y1, Y2, A] = centroid_MGSSC_1view(n, K, C1, C2, C_centroid, Y1, Y2, alpha, lambda1, mu)
+function [C1, C2, Y1, Y2, A] = oneview(n, K, C1, C2, C_centroid, Y1, Y2, alpha, lambda1, mu)
 
 % updating A
 inv_A = inv(2*K+(mu(1)+mu(2))*eye(n));
